@@ -11,9 +11,9 @@ O [ngrok](https://ngrok.com/) é um serviço que disponibiliza servidores por tr
 
 `cd Ngrok444`
 
-`chmod +x termux-ngrok.sh`
+`chmod +x ngrok.sh`
 
-`./termux-ngrok.sh`
+`./ngrok.sh`
 
 ### Screenshot
 
