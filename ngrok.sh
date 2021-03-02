@@ -84,7 +84,7 @@ x86_64)
     echo "Arquitetura desconhecida"
 esac
 
-wget "https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-arm${architectureURL}.zip?raw=true" -O ngrok.zip
+wget "https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
 unzip ngrok.zip
 cat ngrok > /data/data/com.termux/files/usr/bin/ngrok
 chmod 700 /data/data/com.termux/files/usr/bin/ngrok
